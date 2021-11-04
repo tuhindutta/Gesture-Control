@@ -4,4 +4,5 @@ Using the mediapipe and opencv library extensively, this project has been design
 The folder consists of 2 files:
   1. handTrackingModule.py - It consists of a class and some objects within whose sole purpose is to track the hand movement and return the position of the finger landmarks
   2. VolumeControl.py - It consistes of the main function. You will the working by seeing the well commented codes itself.
+  3. BrightnessControl.py - Similarly, this file uses a different python library (screen-brightness-control) to control device brightness.
 Feel free to make any changes and develop this project.
