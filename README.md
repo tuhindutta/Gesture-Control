@@ -1,10 +1,61 @@
-# Gesture_Control
-This is a Python Project on Computer Vision.
-Using the mediapipe and opencv library extensively. It contains multiple projects for gesture controls.
-The folder consists of 2 files:
-  1. handTrackingModule.py - It consists of a class and some objects within whose sole purpose is to track the hand movement and return the position of the finger landmarks
-  2. VolumeControl.py - It consistes of the main function. You will understand the working by seeing the well commented codes itself. This project has been designed so that on bringing the thumb and the index finger closer, volume decreases and volume increases on pulling the fingers away.
-  3. BrightnessControl.py - Similarly, this file uses a different python library (screen-brightness-control) to control device brightness with the same previous gesture.
-  4. Gesture_Mouse.py - In this, wxWidgets and pyautogui libraries are used for gesture controlled mouse. You can find the details of working by viewing the well commented code itself. It works by tracking the tip of index finger to move the mouse pointer and the left click is enabled by bringing the index and the middle finger close.
-  
-Feel free to make any changes and develop the project. Please Explore!
+# ✋ Gesture Control
+A Python-based Computer Vision Project for Gesture-Based System Controls
+
+## 🧠 Overview
+Gesture Control is an open-source Python project that leverages computer vision to enable gesture-based control of system functionalities such as volume, brightness, and mouse operations. Utilizing the power of MediaPipe and OpenCV, this project interprets hand gestures captured via webcam to perform real-time system adjustments, offering a touchless interaction experience.
+
+🚀 Features
+- Hand Tracking Module: Detects and tracks hand landmarks using MediaPipe.
+- Volume Control: Adjusts system volume by varying the distance between the thumb and index finger.
+- Brightness Control: Modifies screen brightness using similar hand gestures.
+- Gesture-Based Mouse Control: Controls mouse movements and clicks through specific hand gestures.
+
+## 🛠️ Technologies Used
+<table> <thead> <tr> <th>Category</th> <th>Tech Stack</th> </tr> </thead> <tbody> <tr> <td>Programming Language</td> <td>Python 3.x</td> </tr> <tr> <td>Computer Vision</td> <td>OpenCV</td> </tr> <tr> <td>Hand Tracking</td> <td>MediaPipe</td> </tr> <tr> <td>System Control</td> <td>pycaw (Volume), screen-brightness-control (Brightness)</td> </tr> <tr> <td>Mouse Control</td> <td>pyautogui, wxPython</td> </tr> </tbody> </table>
+
+## 📁 Project Structure
+```env
+Gesture_Control/
+├── handTrackingModule.py     # Module for hand landmark detection
+├── VolumeControl.py          # Script to control system volume via gestures
+├── BrightnessControl.py      # Script to control screen brightness via gestures
+├── Gesture_Mouse.py          # Script to control mouse using hand gestures
+└── README.md                 # Project documentation
+```
+
+## ⚙️ Setup & Installation
+1. Clone the Repository:
+   ```bash
+   git clone https://github.com/tuhindutta/Gesture-Control.git
+   cd Gesture-Control
+   ```
+2. Create a Virtual Environment (Optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install Dependencies
+
+## 🧪 Usage
+- Volume Control:
+  ```bash
+  python VolumeControl.py
+  ```
+  Gesture: Bringing the thumb and index finger closer decreases the volume; moving them apart increases it.
+
+- Brightness Control:
+  ```bash
+  python BrightnessControl.py
+  ```
+  Gesture: Similar to volume control; adjusts screen brightness based on the distance between thumb and index finger.
+
+- Mouse Control:
+  ```bash
+  python Gesture_Mouse.py
+  ```
+  Gestures:
+    - Move Cursor: Move your index finger to control the cursor.
+    - Left Click: Bring the index and middle fingers close together.
+
+## 🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For more details and updates, visit the [GitHub Repository]().
