@@ -61,6 +61,6 @@ Gesture_Control/
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes. For more details and updates, visit the [GitHub Repository](https://github.com/tuhindutta/Gesture-Control).
 
 ## 🙏 Acknowledgements
-This project was inspired by the outstanding tutorials and educational content from Murtaza Hassan, whose work in practical computer vision and real-time AI applications has been instrumental in shaping this implementation.
+This project was inspired by the outstanding tutorials and educational content from [Murtaza Hassan](https://www.murtazahassan.com/), whose work in practical computer vision and real-time AI applications has been instrumental in shaping this implementation.
 
 Special thanks to the broader open-source community for libraries like MediaPipe, OpenCV, and other tools that make gesture-based interaction accessible and exciting to build.
